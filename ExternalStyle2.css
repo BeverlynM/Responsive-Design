@@ -1,12 +1,12 @@
 
 A:link {color: gray}
-A:visited, A:active {color: green}
-A:hover {text-decoration: overline; color: teal}
+A:visited, A:active {color: rgb(32, 120, 32)}
+A:hover {text-decoration: overline; color: rgb(62, 62, 58)}
 	
 Body {
 	background-color: white;
 	font-family: cambria;
-	color: gray	
+	color: rgb(34, 51, 90)	
 	}
 
 H1 {font-size: 50pt; text-align: right}
@@ -20,15 +20,35 @@ P {font-size: 10pt; font-family: monospace}
 Table {
 	width: 400px; 
 	font-family: monospace; 
-	color: white; 
-	background-color: green;
+	color: rgb(7, 58, 33); 
+	background-color: rgb(237, 236, 224);
 	margin: .8em;
-	border-color: darkgreen}
+	border-color: rgb(0, 2, 0)}
 
 
 Form {
 	font-family: monospace; 
 	text-align: center; 
-	color: white; 
+	color: rgb(11, 3, 3); 
 	background-color: green}
 
+@media screen and (max-width: 325px){
+
+		.nav{
+			display: block;
+			margin: 10px;
+		}
+@media screen and (max-width: 325px){
+	#veggie{
+		border-radius: 8px;
+		width: 280px;
+	}
+	#logo{
+		border-radius: 8px;
+		width: 280px;
+	}}
+	H1{font-size: 100; text-align: center;}
+	H2{font-size: 1pt; text-align: center;}
+	H3{font-size: 25pt; text-align: center;}
+	H4{font-size: 25pt; text-align: center;}
+	H5{font-size: 25pt; text-align: center;}
